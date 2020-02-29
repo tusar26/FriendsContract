@@ -5,6 +5,7 @@
     <string-array name="number">
 
         <item>01792750826</item>
+        <item>01783797040</item>
         <item>01648543978</item>
         <item>01996535213</item>
         <item>01254896222</item>
@@ -14,6 +15,7 @@
 
     <string-array name="name">
         <item>Tusar Ali</item>
+        <item>Akter Uzzaman</item>
         <item>Abdullah</item>
         <item>Noman</item>
         <item>Robiul</item>
@@ -25,6 +27,7 @@
     <string-array name="country">
 
         <item>Bangladesh</item>
+        <item>Dhaka</item>
         <item>Japan</item>
         <item>India</item>
         <item>Pakistan</item>

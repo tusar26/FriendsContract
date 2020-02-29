@@ -18,15 +18,15 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     Context context;
 
     String [] name,location;
-    int[] number;
+    String[] number;
     int[] profile_image;
 
-    public Adapter(Context context, String[] name, String[] location, int[] number, int[] images) {
+    public Adapter(Context context, String[] name, String[] location, String[] number, int[] images) {
         this.context = context;
         this.name = name;
         this.location = location;
         this.number = number;
-        this.profile_image = profile_image;
+        this.profile_image = images;
     }
 
 
@@ -57,7 +57,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView nameTextView,locationTextView;
-        int[] phoneNUmber;
+        int[] number;
         ImageView profileImageView;
 
         public MyViewHolder(@NonNull View itemView) {
@@ -67,7 +67,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
             nameTextView  = itemView.findViewById(R.id.nameId);
             locationTextView = itemView.findViewById(R.id.locationId);
             profileImageView = itemView.findViewById(R.id.profile_image);
-/*            phoneNUmber = itemView.findViewById(R.id.number);*/
 
 
         }
